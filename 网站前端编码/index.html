@@ -5,38 +5,568 @@
     <meta charset="UTF-8">
     <title>小说阅读网</title>
     <!--引用layui-->
-    <link rel="stylesheet" href="lib/layui/css/layui.css">
-    <link rel="stylesheet" href="lib/mycss/index.css">
 
+    <link rel="stylesheet" href="lib/mycss/rest.css">
+    <link rel="stylesheet" href="lib/mycss/base.css">
+    <link rel="stylesheet" href="lib/mycss/index.css">
+    <link rel="stylesheet" href="lib/H-ui/static/h-ui/css/H-ui.css">
+    <style type="text/css">
+        .container {
+            width: 1000px;
+            height: 100%;
+            margin: 0 auto;
+
+        }
+
+
+        /*header  头部*/
+
+        .left_logo {
+
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .header {}
+
+        .header .right img {
+            width: 600px;
+        }
+
+        /*header*/
+
+        /*main 中间部分*/
+
+        .main {}
+
+        .nav {
+            background-color: purple;
+        }
+
+        .main .nav_left li {
+            display: inline-block;
+            font-size: 16px;
+            margin-right: 10px;
+            height: 44px;
+            line-height: 44px;
+
+        }
+
+        .main .nav_left ul {
+
+            font-size: 0;
+        }
+
+        .main .nav_rigtht form {
+            margin: 10px;
+
+        }
+
+        .nav .bottom_nav li {
+            display: inline-block;
+            font-size: 16px;
+            margin-right: 10px;
+            height: 44px;
+            line-height: 44px;
+        }
+
+        .content {
+            background-color: #1E9FFF;
+        }
+
+        .content_left {
+            background-color: gold;
+            display: inline-block;
+            width: 20%;
+            vertical-align: top;
+        }
+
+        .content_center {
+            background-color: beige;
+            display: inline-block;
+            width: 60%;
+        }
+
+        .content_center .sell-rate li {
+            display: inline-block;
+            width: 21%;
+        }
+
+        .content_right {
+            background-color: #00F7DE;
+            display: inline-block;
+            width: 19%;
+            vertical-align: top;
+        }
+
+        .content .banner .hd img {
+            width: 125px;
+            height: 58px;
+        }
+
+        .content .content_right_look {
+            padding-top: 150px;
+        }
+
+        .content ul {
+            text-indent: 0;
+        }
+
+        .sell-rate ul li {
+            clear: left;
+        }
+
+        .saild {
+            width: 729px;
+            height: 270px;
+            background-color: #2ffff5;
+        }
+
+        /*main*/
+    </style>
 
 </head>
+
 <body>
-<div class="logonbox">
-    <div class="" style="">
-        <span class="layui-breadcrumb" lay-separator="|">
-            <a href="">娱乐</a>
-            <a href="">八卦</a>
-            <a href="">体育</a>
-            <a href="">搞笑</a>
-            <a href="">视频</a>
-            <a href="">游戏</a>
-            <a href="">综艺</a>
-        </span>
-    </div>
-    <div>
+
+    <div class="container">
+        <div class="header clearfix">
+            <div class="left_logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="right">
+                <img src="images/ad.png">
+            </div>
+        </div>
+        <!--main-->
+        <div class="main">
+            <div class="nav">
+                <div class="top_nav clearfix">
+                    <div class="nav_left fl">
+                        <ul>
+                            <li>首页</li>
+                            <li>首页</li>
+                            <li>首页</li>
+                            <li>首页</li>
+                            <li>首页</li>
+                        </ul>
+                    </div>
+                    <div class="nav_rigtht fr">
+                        <form>
+                            <select>
+                                <option>---请选择---</option>
+                            </select>
+                            <input type="text">
+                            <input type="submit" value="搜索">
+                        </form>
+                    </div>
+                </div>
+                <div class="bottom_nav">
+                    <ul>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+                        <li>原创书库</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content_left">
+                    <h2>本周强推</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>玄幻</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>[玄幻]&nbsp;</span>
+                            </a>
+                            <a href="#">
+                                <span>完美世界</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <div class="clearfix">
+                        <span class="fl">换一换</span>
+                        <span class="fr">更多</span>
+                    </div>
+                </div>
+                <div class="content_center">
+                    <div class="banner">
+                        <div class="saild">
+
+                        </div>
+                    </div>
+                    <div class="sell-rate">
+                        <h1>推荐书籍</h1>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="content_right">
+                    <div class="content_right_tip">
+                        <h2>大神推</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>玄幻</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]&nbsp;</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]&nbsp;</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]&nbsp;</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="content_right_look">
+                        <h2>大神推</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>玄幻</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]&nbsp;</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]&nbsp;</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>[玄幻]&nbsp;</span>
+                                </a>
+                                <a href="#">
+                                    <span>完美世界</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="clearfix">
+                            <span class="fl">换一换</span>
+                            <span class="fr">更多</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="tuijian">
+
+            </div>
+            <div class="paihang">
+
+            </div>
+        </div>
+        <!--main-->
+        <div class="footer">
+            <div class="friend_link">
+
+            </div>
+            <div class="site_info">
+
+            </div>
+        </div>
 
     </div>
 
-</div>
 
+    <!--引入layuijs文件-->
 
+    <script type="text/javascript" src="http://lib.h-ui.net/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://lib.h-ui.net/jquery.SuperSlide/2.1.1/jquery.SuperSlide.min.js"></script>
 
-<!--引入layuijs文件-->
-<script src="lib/layui/layui.all.js"></script>
-
-<script>
-    //这里写js代码
-
-</script>
+    <script type="text/javascript" src="http://lib.h-ui.net/jcarousellite.min.js"></script>
+    <script>
+        //这里写js代码
+        $(function () {
+            jQuery("#slider-1 .slider").slide({
+                mainCell: ".bd ul", titCell: ".hd li", trigger: "click", effect: "leftLoop", autoPlay: true,
+                delayTime: 850, interTime: 7000, pnLoop: false, titOnClassName: "active"
+            })
+        });
+    </script>
 </body>
+
 </html>

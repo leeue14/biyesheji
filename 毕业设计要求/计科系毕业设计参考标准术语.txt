@@ -1,0 +1,553 @@
+毕业设计参考标准术语（如有异议以官网为准）：
+.NET
+.NET Windows
+2G
+3D
+3G
+4G
+4S
+5V
+A44E
+AB
+AC
+ACL
+AD
+ADSL
+AES
+AI
+AJAX
+ANSI C
+AngularJS
+AP
+API
+API Store
+APICloud
+APL
+APOP
+ARM
+ASP
+ASP.NET
+ASP.NET MVC
+ATM
+ActiveX
+Activity
+Acture
+AdaBoost
+Adobe Dreamweaver
+AiRunning
+Android
+Android App
+Android Sdk
+Android Studio
+Android/iOS
+Android6.0
+AndroidUI
+AngularJS
+Apache
+App
+Application Programming Interface
+Apriori
+Arduino
+Arduino IDE
+Arduino UNO
+AutoCAD
+Axure
+B/S
+B2B
+B2C
+BBS
+BGP
+Banner
+BaseAdapter
+Bootstrap
+BroadcastReceiver
+Browser/Server
+Business-to-Customer
+C
+C#
+C++
+C/C++
+C/S
+C2C
+CAD
+CAPWAP
+CC2530
+CDMA2000
+CG
+CMS
+CO2
+CPU
+CRM
+CRUD
+CS
+CSS
+CSS2
+CSS2.0
+CSS3
+CSS3.0
+CSS3/AJAX
+CURD
+Cache
+Canvas
+CardView
+Cascading Style Sheets
+CentOS
+CloudStack
+Cocos2d
+Composer
+ContentProvider
+Cookie
+Cortex-M3
+CrossPHP
+D2D
+D3.js
+DAO
+DBMS
+DHCP
+DHT11
+DIV
+DIY
+DMS
+DOTAER
+DS18B20
+DVB
+DW
+DedeCMS
+Demo
+Dialog
+DirectShow
+Docker
+Docker Driver
+Dota2
+Dotaer
+Dreamwaver
+Dreamweaver
+E
+E-Learning
+E-Mail
+E-R
+EC
+ECS
+EDA
+EE
+EJB
+EJS
+ERP
+ESMTP
+ETL
+EasyUI
+Eclipse
+Ehcache
+Erlang
+Esper
+Excel
+FC
+FDD-LTE
+FFmpeg
+FIT
+FPS
+FTP
+FTTH
+Facebook
+Fetch
+FirstVT
+Flash
+Flask
+FoxMail
+Fragment
+FreeMarker
+Fresh Air
+FreshAir App
+GET
+GNS3
+GNS3 Packet Tracer
+GPRS
+GPS
+GSM1800
+GUI
+Git
+GitHub
+Gmail
+Google
+Google Code
+Gradle
+Gson
+H.264
+HBase
+HDFS
+HMTL5
+HPOS
+HR
+HTML
+HTML5
+HTML5 Canvas
+HTML5 Web App
+HTML6
+HTTP
+Hadoop
+Hbuilder
+Hibernate
+Hishow
+HotJava
+HttpClient
+Hvfun
+Hybrid App
+Hyperion
+ICP
+ID
+IDC
+IDE
+IDEA 14
+IDS
+IEEE802.11
+IIs
+IMAP
+IMG-Ucr25 RFID
+INTETRNET
+IP
+IPAD
+IPSEC VPN
+IPTV
+IPv6
+IRF
+IT
+IntelliJIDEA
+Internet
+JDBC
+JDBCTemplate
+JDK
+JFinal
+JQ
+JS
+JS/H5
+JS/JQ
+JSJava
+JSP
+JSP/Servlet/JavaBean
+Java
+Java Applet
+Java C++
+Java EE
+Java SE
+Java SSH
+Java SSM
+Java Swing
+Java Virtual Machine
+Java Web
+Java Windows
+Java/PHP
+JavaBean
+JavaScript
+JavaScript CSS jQuery HTML5 MUI
+Java\NET\PHP
+Java Web
+Jboss
+JsRender
+Json
+K-means
+KILL
+KTV
+Kafka
+Keil
+Keil C
+L293D
+LAMP
+LAN
+LASTVT
+LBS
+LCD
+LCD1602
+LED
+LNMP
+LOGO
+Laravel
+Layer
+LinearLayout
+Linux
+ListView
+Log4j
+Lucene
+MAC
+MCU
+MD5
+MIS
+MMS
+MOBA
+MPLS
+MSN
+MSP430F249
+MSTP
+MUI
+MV
+MVC
+MVP
+MVVM
+MapReduce
+Marvell
+Marvell 8686
+Massive MIMO
+Material Design
+Maven
+MeiDo
+Microsoft Visio
+Microsoft Visio2010.SecureCRT
+Mininet
+MongoDB
+MyBatis
+MyEclipse
+MySQL
+MySQL Workbench
+MySQL5.6
+Mybatis
+NAT
+NC502
+NEMusic
+NIO Netty
+NMA
+NSU2016-001
+NWK
+Native.js
+Nginx
+Nick McKeown
+NoSQL
+Node
+Node.js
+Node.jsHTMLl5
+Nova API
+O2O
+OA
+OC
+ODN
+OLT
+ONU
+OPNET
+ORM
+OSI
+OSPF
+OSPF VRRP port-channel.BGP VLAN
+OTO
+OVS
+Object-C
+Objective
+Objective-C
+Office
+Oozie
+OpenCV
+OpenFlow
+OpenStack
+Oracle
+Oracle Database
+Oracle Hyperion
+Oracle ODI
+Orcale
+Outlook
+P2P
+PC
+PCB
+PDA
+PHP
+PHP MVC
+PHP Web
+PHP Yii2.0
+PHPCMS
+PHY
+PID
+PKI
+PL/SQL
+PM
+PON
+POP3
+POS
+PPPOE
+PPT
+PS
+PWM
+Perl/PHP/Python
+Photoshop
+PhpStrom
+Pjax
+PowerDesigner
+Proteus
+Public Key Infrastructure
+Python
+Python Django
+Python Flask
+QQ
+QT
+QoS
+RAN
+RCS
+RESTful Service
+RFC2338
+RFID
+RIP
+RPG
+RSA
+RSS
+RTCP
+RTH
+RTP
+Radio Frequency Identification
+React
+ReactJS
+RecyclerView
+Redis
+Redux
+RelativeLayout
+Request
+RequireJS
+Resource Allocating Network
+Response
+Retrofit
+Road to Health
+RxJava
+S3C6410
+SASL
+SCS
+SDL
+SDN
+SLR
+SMS
+SMTP
+SOH
+SPA
+SQL
+SQL Server
+SQL Server 2000
+SQL Server 2005
+SQL Server 2008
+SQL Sever 2000
+SQL2000
+SQLServer
+SQLite
+SQLyog
+SSH
+SSH2
+SSL
+SSM
+STC
+STC12C5410
+STC51
+STC89C52
+STM32
+SVN
+SaaS
+Scala
+Sdcard
+Servelt
+Server
+Service
+Servlet
+Session
+Smarty
+Sniffer
+Socket
+SourceForge
+Spark
+Spring
+Spring MVC
+SpringMVC
+Strom
+Struts
+Struts2
+Struts2/FreeMaker
+Struts2/Jersey
+Struts2/Spring
+Struts2/Spring v4.Hibernate
+Studio
+Sublime Text
+Sulli
+Sun Microsystems
+Swift
+Swing
+System
+T264
+TCP
+TCP SYN
+TCP connect
+TCP/IP
+TD-LTE
+TD-SCDMA
+TL
+TOP3
+TOPCARES-CDIO
+TP
+TabLayout
+Tag
+ThinkPHP
+Tomcat
+Tomcat8
+Tortoise SVN
+U-Boot
+U3D
+UDP
+UI
+UML
+URL
+USB
+Unity
+Unity Technologies
+Unity3D
+Unity4
+UnityD
+V4L
+VB C++
+VC
+VIM
+VLAN
+VMware
+VOD
+VPN
+VRRP
+VS
+Viewpager
+Virtual Cell
+Virtual Router Redundancy Protocol
+Visio
+Vue.js
+VueJS
+W3C
+WAN
+WCDMA
+WLAN
+WORD
+WampServer
+WdatePicker
+Web
+Web App
+Web2.0
+WebMail
+WebSocket
+WebStorm
+Wi-Fi
+WiFi
+Win32
+Windows
+Windows 2000/2003/XP/Vista/Windows7/ Windows8/ Windows10
+Windows Server 2008
+Windows XP
+WindowsServer
+Winpcap
+Wireless Local Area Networks
+X1.
+X1.H
+X2.
+X4
+XML
+XML/CSS/JavaScript/AJAX
+XSS
+XX
+Xcode
+Xsafe
+YARN
+Yii2
+Zend Studio 10.0.0
+ZigBee
+ZigBee/WiFi
+ZooKeeper
+iBeacon
+iOS
+jQuery
+jQuery UI
+uCOS
+uCOS-II
